@@ -27,6 +27,17 @@ Start the dev server
 npm run dev
 ```
 
+Start https dev server
+
+> [!NOTE]
+> Not recommended for production. Only for local development to test the installable PWA.
+> Use the `--experimental-https` flag to enable HTTPS.
+> Ignore `certificates` folder.
+
+```bash
+npm run dev -- --experimental-https
+```
+
 ## Building
 
 ```bash
