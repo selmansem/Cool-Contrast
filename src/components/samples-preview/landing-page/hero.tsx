@@ -63,7 +63,7 @@ export function Hero() {
           <svg
             className={classes.brandSvg}
             fill="none"
-            height="auto"
+            height="100%"
             viewBox="0 0 1600 143"
             width="1600"
             xmlns="http://www.w3.org/2000/svg"
@@ -80,6 +80,7 @@ export function Hero() {
         </div>
         <div className={classes.imageContainer}>
           <Image
+            priority
             alt="profile"
             className={classes.photo}
             height={1102}
