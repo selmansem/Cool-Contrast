@@ -14,19 +14,9 @@ const metadata: Metadata = {
     url: "https://coolcontrast.vercel.app",
     type: "website",
   },
-  icons: [
-    {
-      rel: "icon",
-      url: "/favicon.ico",
-    },
-    { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },
-  ],
   twitter: {
     creator: "@AlexGarrixen",
     card: "summary_large_image",
-  },
-  appleWebApp: {
-    title: "Cool Contrast",
   },
 };
 
